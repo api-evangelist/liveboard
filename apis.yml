@@ -1,7 +1,18 @@
 aid: liveboard
 name: Liveboard
-description: Liveboard is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  LiveBoard is a tutor-management platform that helps tutoring businesses,
+  academies, and independent tutors run their operations end to end. It combines
+  branded virtual classrooms (video calls, screen sharing, an interactive
+  whiteboard, recording, and file sharing) with session scheduling and attendance
+  tracking, tutor/student/parent management, calendar-based billing with online
+  payments, auto-invoicing, payroll, and progress reporting. Liveboard says it
+  serves 200,000+ tutors and companies across 200+ countries, scaling from solo
+  tutors to organizations with thousands of tutors. It is a consumer/SaaS product
+  with no public developer API, SDK, or webhook surface at this time; integrations
+  are teaching-focused (Wacom pen tablets, a LaTeX formula editor, and the Desmos
+  graphing calculator). Surfaced as a 500 Global portfolio company and added to the
+  API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/liveboard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.liveboard.online/images/og-img-home.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- EdTech
+- Tutoring
+- Virtual Classroom
+- Online Whiteboard
+- Scheduling
+- Billing
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/liveboard-domain-security.yml
 - type: Website
   url: https://liveboard.online
+- type: Pricing
+  url: https://www.liveboard.online/pricing
+- type: TermsOfService
+  url: https://www.liveboard.online/terms
+- type: PrivacyPolicy
+  url: https://www.liveboard.online/privacy
+- type: Blog
+  url: https://www.liveboard.online/blog
+- type: SignUp
+  url: https://app.liveboard.online/sign-up
+- type: Login
+  url: https://app.liveboard.online/sign-in
+- type: Support
+  url: https://www.liveboard.online/contact-us
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
